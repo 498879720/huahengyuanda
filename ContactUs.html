@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="css/contact-us.css"/>
+     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div class="banner">
+  <img src="images/cellme_01.jpg" alt="">
+</div>
+
+<div class="contain">
+  <div class="position">
+     当前位置：<a href="#">首页</a> > <a href="#">联系我们</a>
+  </div>
+
+  <div class="text_con">
+     <div class="text_left">
+       <ul>
+         <li class="bgicon_1">
+           <h3>公司</h3><p>深圳华恒远大资产管理有限公司</p>
+         </li>
+         <li class="bgicon_2">
+           <h3>地址</h3><p>深圳市前海深港合作区前湾一路1号A栋201室</p>
+         </li>
+         <li class="bgicon_3">
+           <h3>电话</h3><p>400-000-0000</p>
+         </li>
+         <li class="bgicon_4">
+           <h3>传真</h3><p>400-000-0000</p>
+         </li>
+         <li class="bgicon_5">
+           <h3>邮件</h3><p>szhhyd@mail.com</p>
+         </li>
+       </ul>
+     </div>
+     <div class="text_right">
+       <img src="images/cellme_04.jpg" alt="">
+     </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <div class="footer_con">
+    <div class="left">
+      <h4>华恒远大资产管理</h4>
+      <p>深圳市前海深港合作区前湾一路1号A栋201室</p>
+    </div>
+    <div class="right">
+      <p>电话：400-400-400</p>
+      <p>邮箱：12345@163.com</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function(){
+    $('.text_left li').click(function () {
+      $(this).addClass('active').siblings().removeClass('active')
+    })
+  })
+</script>
+
+</body>
+</html>

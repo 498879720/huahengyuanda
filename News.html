@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻动态</title>
+     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="css/news.css"/>
+     <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+<div class="banner">
+  <img src="images/news_01.jpg" alt="">
+</div>
+
+<div class="contain">
+  <h1 class="title">新闻动态<span>/NEWS</span></h1>
+
+  <div class="position">
+     当前位置：<a href="#">首页</a> > <a href="#">新闻中心</a>
+  </div>
+
+  <div class="text_con">
+     <div class="text_left">
+        <ul>
+          <li class="active">
+            <h3>全部</h3>
+            <p>all news</p>
+          </li>
+          <li>
+            <h3>公司动态</h3>
+            <p>company</p>
+          </li>
+          <li>
+            <h3>业界新闻</h3>
+            <p>profession</p>
+          </li>
+        </ul>
+     </div>
+     <div class="text_right">
+       <ul class="newlist">
+         <li>
+           <a href="##"><h5>美联储启动缩表 全球货币政策面临新变局</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>国务院发布了《关于进一步扩大和升级信息消费持续释放内需潜力的指导意见》</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>互联网金融风险专项整治工作领导小组办公室特急下发《关于立即暂停批设网络小额贷款公...</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>美联储启动缩表 全球货币政策面临新变局</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>美联储启动缩表 全球货币政策面临新变局</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>美联储启动缩表 全球货币政策面临新变局</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>美联储启动缩表 全球货币政策面临新变局</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>美联储启动缩表 全球货币政策面临新变局</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>美联储启动缩表 全球货币政策面临新变局</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+         <li>
+           <a href="##"><h5>美联储启动缩表 全球货币政策面临新变局</h5></a>
+           <p>2017-11-21 20:52 来源：腾讯网</p>
+         </li>
+       </ul>
+       <ul class="page">
+         <li><a href="##">上一页</a></li>
+         <li><a href="##">1</a></li>
+         <li><a href="##">2</a></li>
+         <li>3</li>
+         <li>下一页</li>
+       </ul>
+     </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <div class="footer_con">
+    <div class="left">
+      <h4>华恒远大资产管理</h4>
+      <p>深圳市前海深港合作区前湾一路1号A栋201室</p>
+    </div>
+    <div class="right">
+      <p>电话：400-400-400</p>
+      <p>邮箱：12345@163.com</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function(){
+    $('.text_left li').click(function () {
+      $(this).addClass('active').siblings().removeClass('active')
+    })
+
+    $('.page li').each(function(){
+       if($(this).find('a').length > 0){
+         $(this).addClass('bord_a')
+       }
+    })
+  })
+</script>
+
+</body>
+</html>

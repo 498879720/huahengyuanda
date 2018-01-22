@@ -1,0 +1,107 @@
+html{ width: 100%; max-width: 1920px; min-width: 1024px;}
+
+.banner{
+  width: 100%; height: auto;
+}
+.banner img{
+  width: 100%;
+}
+.contain{
+  width: 63%; margin: 0 auto;
+}
+.title{ font-size: 2.8em; color: #d8ad7a; font-weight: 400; margin: 40px 0}
+.title span{ font-size:0.4em}
+
+.position{ padding: 0.6em 0; color: #808080; margin: 2em 0 4em 0; font-size: 14px}
+.position a{color: #808080; text-decoration: none }
+
+.text_con{ height: auto; overflow: hidden}
+.text_con .text_left{ float: left; height: auto; width: 50%; font-size: 18px }
+.text_con .text_left ul li{
+  height: auto;
+  overflow: hidden;
+  line-height: 1.3em;
+  margin-bottom: 1em;
+  white-space: nowrap;
+}
+.text_con .text_left ul li:before{
+  content: '';
+  display: block;
+  width: 1.3em;
+  height: 1.3em;
+  background-image: url("../images/cellme_Icon_03.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  float: left;
+  margin-right: 0.5em;
+}
+.bgicon_1:before{
+  background-position: 0px 0px;
+}
+.bgicon_2:before{
+  background-position: 0px -39px;
+}
+.bgicon_3:before{
+  background-position: 0px -76px;
+}
+.bgicon_4:before{
+  background-position: 0px -116px;
+}
+.bgicon_5:before{
+  background-position: 0px -159px;
+}
+
+.text_con .text_left ul li h3{
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 1em;
+}
+
+.text_con .text_left ul li p{
+  display: inline-block;
+  font-weight: 100;
+  font-size: 17px
+}
+
+.text_con .text_right{ float: right; height: auto; width: 50%;}
+.text_con .text_left ul{ height: auto; overflow: hidden}
+
+
+.text_con .text_right h3{
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+.text_con .text_right p{ font-size: 18px; text-indent: 2em; line-height: 36px; color: #666666; }
+.text_con .text_right img{ max-width: 100%; margin: 1em auto}
+
+
+.footer{
+  background: #333333;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.footer_con{
+  width: 63%; margin: 0 auto;
+  padding: 2em 0;
+  color: #fff;
+  height: auto;
+  overflow: hidden;
+}
+.footer_con h4{ font-size: 1.5em; font-weight: 400}
+
+.footer_con .left{
+  width: 50%;
+  float: left;
+  line-height: 3em;
+}
+.footer_con .right{
+  width: 50%;
+  float: right;
+  line-height: 3em;
+  text-align: right;
+}
